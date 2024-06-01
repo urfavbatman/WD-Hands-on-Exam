@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+
+ 
+    .logo {
+    font-size: 1.5em;
+}
+}
+
+#hero {
+    background: #000;
+    color: #fff;
+    padding: 4em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    text-align: start;
+
+    .hero-content {
+    max-width: 600px;
+    font-size: 1em; 
+}
+ 
+    .highlight {
+    color: #f90;
+    font-size: 1.5em;
+}
+ 
+    .hero-image {
+    flex-shrink: 0;
+}
+ 
+    .hero-image img {
+    width: 500px;
+    height: auto;
+}
+}
+
+
+#introduction {
+    padding: 6em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .intro-text h2{
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    .intro-content {
+    display: flex;
+    max-width: 400px;
+    gap: 2em;
+}
+ 
+    .img {
+    justify-self: center;
+    width: 100px;
+    height: auto;
+    }
+    
+}
+
+#how-it-works {
+    display: absolute;
+    padding: 4em 2em;
+    background-color: #f0f0f0;
+    font-size: 1em;
+    text-align: start;
+    
+    .how-text{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .steps {
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    text-align: center;
+}
+ 
+    .step {
+    justify-content: center;
+    width: 150px;
+    
+}
+ 
+    img {
+    width: 50px;
+    height: auto;
+}
+}
+
+#testimonials {
+    display: absolute;
+    padding: 4em 2em;
+    background-color: #000;
+    color: #fff;
+
+    .testimonial-text{
+        text-align: left;
+        font-size: 2em;
+    }
+
+    .testimonial-text2{
+        text-align: right;
+        font-size: 3em;
+    }
+
+    .testimonial-t{
+        font-size: 2em;
+        font-size: bold;
+        text-align: center;
+    }
+    .testimonial{
+    text-align: center;
+    font-size: 2em;
+    }
+
+    img {
+    width: 400px;
+    height: auto;
+
+}
+    
+}
+
+
+#team {
+    padding: 4em 2em;
+    text-align: center;
+ 
+    .team-member {
+    margin-bottom: 2em;
+}
+ 
+    img {
+    width: 300px;
+    height: auto;
+}
+}
+
+#faq {
+    padding: 4em 5em;
+    background-color: #eeeeee;
+
+    .freq{
+        background-color: #f90;
+        font-size: 2em;
+        color: #ffffff;
+        max-width: 21em;
+    }
+    .faq-item1{
+        background-color: #fff;
+        padding: 1em;
+    }
+}
+ 
+#contact {
+    display: flex;
+    padding: 4em 10em;
+    text-align: start;
+    color:#747474;
+    background: url('https://images.pexels.com/photos/164357/pexels-photo-164357.jpeg?cs=srgb&dl=pexels-pixabay-164357.jpg&fm=jpg') no-repeat center center/cover;
+ 
+    .contact-form {
+        display: flex;
+        background-color: #ffffff;
+        width: 94.5%;
+    }
+
+    .img {
+    width: 400px;
+    height: auto;
+}
+ 
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 5em;
+        width: 100%;
+        max-width: 400px;
+        background: color #ffffff;
+        padding: 2em;
+        color: #ccc
+    }
+ 
+    label {
+    text-align: left;
+}
+ 
+    input,
+    textarea {
+    width: 100%;
+    padding: 2em 3em;
+    background-color:#ffffff;
+    color:#ccc;
+}
+ 
+    button {
+    padding: 1em 2em;
+    border: none;
+    background-color: #f90;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+}
